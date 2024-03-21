@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+.github/
+public/
+src/resume.styl
+resume*.json
+.editorconfig
+.gitattributes
+.nvimrc
+*.html
+*.pdf
+*.tgz

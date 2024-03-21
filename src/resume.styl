@@ -1,0 +1,284 @@
+$body-margin = 1ex
+$progress-radius = 0.25em
+
+progress-bar()
+  border-radius $progress-radius
+  background-color green
+  print-color-adjust exact
+
+underlined(color = black, style = solid, thickness = 0.15ex)
+  text-decoration underline color style thickness
+  text-underline-position under
+
+separator(content = "·", padding = 0 0.5em)
+  content content
+  padding padding
+
+quote-mark(content)
+  content content
+  font-size 2em
+  line-height 0.1em
+  vertical-align -0.4em
+  color lightslategray
+
+:root
+  font-family "Lato", sans-serif
+  text-rendering geometricPrecision // XXX: fixes kerning
+
+@media not print
+  @page
+    margin $body-margin * 2
+
+  section
+    break-inside avoid-page
+
+@media print
+  @page
+    margin 2.5cm
+
+body
+  padding 0
+
+@media only screen and (min-width: 297mm)
+  body
+    height 210mm
+    width 297mm
+    margin auto
+
+main
+  margin 0 $body-margin
+
+header
+  height 8em
+  margin $body-margin $body-margin * 1.5 (- $body-margin)
+
+article:not(.flex) > h3
+  margin-block-end 0.75em
+
+h1
+  font-size 2em
+  font-weight 600
+  margin 0.5em 0
+
+h2
+  font-size 1.5em
+  font-weight 400
+  margin 0.5em 0
+
+h3
+  font-size 1.25em
+  font-weight 600
+
+  &::before
+    content " "
+    height 0
+    width "calc(100% + %s)" % ($body-margin * 2)
+    display block
+    position relative
+    padding-block-start 1em
+    border-block-start 0.2ex solid lightslategray
+    left - $body-margin
+    right - $body-margin
+
+strong
+  font-size 1.1em
+  font-weight 600
+
+b
+  font-weight 600
+
+small
+  font-size 0.9em
+
+em
+  font-style normal
+  underlined()
+
+address
+  font-style inherit
+
+a, a:hover
+  color inherit
+  outline none
+  underlined(cyan)
+
+mark
+  color white
+  background-color darkcyan
+  border-radius 0.2em
+  display inline-block
+  padding 0.15em 0.25em
+  margin 0 0 0.2em 0.2em
+  print-color-adjust exact
+
+ul
+  padding-inline-start 2em
+  list-style-type disclosure-closed
+
+progress
+  height 0.5em
+  border 0
+  width 95%
+  background-color gray
+  display inline-block
+  border-radius $progress-radius
+  margin 0.25em 0
+  print-color-adjust exact
+
+  &::-moz-progress-bar
+    progress-bar()
+
+  &::-webkit-progress-value
+    progress-bar()
+
+  &::-webkit-progress-bar
+    border-radius $progress-radius
+
+time + :is(time, span)::before
+  separator("–", 0 0.25em)
+
+// TODO: rewrite using grid
+.flex
+  display flex
+  flex-wrap wrap
+  justify-content space-evenly
+  gap 0 0.75em
+
+  > h3
+    flex-basis 100%
+
+  > section
+    flex 1
+
+.details
+  > :first-child
+    margin-block-end 1em
+
+  &:not(:first-of-type)
+    padding-block-start 1em
+
+  &:not(:last-of-type)
+    padding-block-end 1em
+    border-block-end 0.15ex dashed darkslategray
+
+.wrap
+  line-height 1.5em
+  white-space pre-wrap
+
+.icon
+  height 0.9em
+  width 0.9em
+  vertical-align middle
+  margin-inline-end 0.2em
+
+  h3 > &
+    margin-block-end 0.4ex
+
+  // HACK: fine-tune certain icons
+  &[src$="map-pin.svg"]
+    vertical-align initial
+    margin-block-start -0.4ex
+
+  &[src$="trophy.svg"]
+  &[src$="document-text.svg"]
+    margin-block-start -0.2ex
+
+  &[src$="heart.svg"]
+  &[src$="academic-cap.svg"]
+    margin-block-start -0.1ex
+
+  &[src$="github"]
+    margin-block-end 0.4ex
+
+  &[src$="element"]
+    margin-block-end 0.3ex
+
+  &[src$="signal"]
+  &[src$="globe-alt.svg"]
+    margin-block-end 0.2ex
+
+  &[src$="linkedin"]
+  &[src$="phone.svg"]
+  &[src$="envelope.svg"]
+    margin-block-end 0.1ex
+
+.float
+  float inline-end
+  margin-inline-end 0.75em
+
+.sep
+  margin-block-start 0.25em
+
+  > b::after
+    separator()
+
+.education
+  > div + div
+    margin-block-start 1.5ex
+
+  .courses > ul
+    display flex
+    flex-wrap wrap
+    margin-block-end 0
+
+    > li
+      flex-basis 50%
+
+.project
+  > div + div
+    margin-block-start 1.5ex
+
+.reference
+  background lightgray
+  border-radius 1.5ex
+  padding 0.5em 1em
+  print-color-adjust exact
+
+  > blockquote
+    font-style italic
+    quotes "“" "”"
+    margin 0
+
+    &::before
+      quote-mark(open-quote)
+      padding-inline-end 0.25em
+
+    &::after
+      quote-mark(close-quote)
+      padding-inline-start 0.2em
+
+  > b::before
+    separator("–", 0 0.5em 0 0)
+
+.skill > div,
+.language > div,
+.interest > div {
+    margin-bottom: 0.75ex; /* Ajout d'un espace en bas de chaque compétence, langue ou intérêt */
+}
+
+
+#summary
+  padding-block-end 1em
+  border-block-end 0.1ex dotted darkgray
+
+#image
+  display contents
+
+  > img
+    float inline-end
+    max-height 90%
+    border 0.3ex solid darkgreen
+    border-radius 15%
+
+:is(#contact, #profiles) > div
+  margin-block-end 0.25ex
+
+// HACK: simulate float: inline-end
+@supports not (float inline-end)
+  html[dir="ltr"]
+    #image > img, .float
+      float right
+
+  html[dir="rtl"]
+    #image > img, .float
+      float left

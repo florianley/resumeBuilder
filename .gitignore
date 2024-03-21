@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+public/
+node_modules/
+.nvimrc
+*.pdf
+*.tgz
