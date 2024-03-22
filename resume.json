@@ -7,10 +7,10 @@
     "email": "florian.ley15@gmail.com",
     "phone": "438 499-7444",
     "url": "https://www.linkedin.com/in/florian-ley",
-    "summary": "Entré chez Davidson Canada en 2021 en tant que Product Product-Owner et Business Analyst pour le compte de Bell, je suis responsable de la gestion du développement et du support d'applications Web interne Bell.\nPendant mes différents projets et poste chez Worldline puis chez Davidson Canada, mes missions m'ont permis de découvrir de nombreux comptes, public et privé tels que Bell, La ville de Paris, Ile de France Mobilité et diversifier mes compétences techniques (développement, hébergement, exploitation), organisationnelles (gestion et pilotage de projet, démarches Agiles).\nCes activités s'accompagnent également d'une composante  de relation client d’une démarche de réponses à appel d'offre ou de foisonnement et la gestion des budgets liées à l'activité de mes comptes clients.\nLa gestion de différents projets m'ont permis de développer des compétences managériales qui s'enrichissent aujourd'hui avec des composantes orientées Management 3.0, centrées sur les personnes et leur participations dans les process du quotidien.\nAu quotidien, j'apprécie de pouvoir expérimenter des méthodes de gestion de projets ou produits plus moderne et développer des compétences managériales qui s'enrichissent aujourd'hui avec des composantes orientées Management 3.0 plus ouvertes et souples, afin d'améliorer le travail d'équipe et la productivité de tous, professionnelle comme personnelle.",
+    "summary": "Depuis mon intégration chez Davidson Canada en 2021 en tant que Product Owner et Business Analyst pour Bell, j'ai pris en charge la gestion du développement et du support des applications Web internes de Bell. Au cours de mes missions chez Worldline puis chez Davidson Canada, j'ai eu l'occasion de travailler sur divers projets pour des clients aussi variés que Bell, la ville de Paris, l'Ile-de-France Mobilité, ce qui m'a permis d'élargir mes compétences techniques (développement, hébergement, exploitation) et organisationnelles (gestion de projet, méthodologies Agiles).\n\nOutre ces responsabilités, j'ai également été impliqué dans la gestion de la relation client, notamment dans le cadre de réponses à des appels d'offres, de brainstorming et de gestion budgétaire pour mes clients.\n\nLa gestion de plusieurs projets m'a permis de développer des compétences managériales, que je continue d'enrichir aujourd'hui en m'orientant vers des approches telles que le Management 3.0, mettant l'accent sur l'implication des individus dans les processus quotidiens. Au quotidien, j'apprécie d'expérimenter des méthodes de gestion de projets et de produits plus modernes, ainsi que des approches managériales plus ouvertes et flexibles, dans le but d'améliorer la collaboration d'équipe et la productivité, tant sur le plan professionnel que personnel.",
     "location": {
       "countryCode": "CA",
-      "address": "Canada "
+      "address": "Montréal"
     },
     "profiles": [
       {
@@ -26,8 +26,16 @@
       "company": "Davidson Canada",
       "position": "Direction de projet : Equipe de rédaction des appels d'offre",
       "startDate": "2023-07-31",
-      "highlights": [],
-      "summary": "<b>Contexte</b> \nLe Studio de développement de Davidson Canada répond aux appels d'offre du Quebec afin de mettre à disposition aux clients de Davidson Canada des produits répondant à leurs besoins stratégique. L'objectif est de sélectionner les appels d'offres en adéquations avec les compétences de Davidson Canada, coordonner les équipes en termes de rédaction des solutions proposées et apporter du support technique et fonctionnel aux solutions proposées \n <b>Actions</b> \n-Analyser quotidiennement la faisabilité de chaque appels d'offres déposé sur les plateformes dédiées Positionnement sur les appels d'offre en adéquation avec les compétences de Davidson Canada \n- Analyser quotidiennement la faisabilité de chaque appels d'offres déposé sur les plateformes dédiées\n- Positionnement sur les appels d'offre en adéquation avec les compétences de Davidson Canada\n- Répartitions des taches à réaliser entre les membre de l'équipe dédiée aux appels d'offres\n- Rédaction des supports technique et fonctionnels contenant le présentation de l'entreprise, les références de Davidson Canada, la méthodologie employée pour la mise en place du mandat, la solution technique et les différents bordereaux de prix.\n-Évaluer et relever les défis des diverses offres d'hébergement cloud proposées par des partenaires tels que GCP, Azure ou encore OVH.\n- Présentation des offres en soutenance\n- Planification et organisation de module et présentation en internes avec des Architectes cloud Davidson afin de renforcer le partenariat cloud entre Davidson et Google",
+      "summary": "<b>Contexte</b> \nLe Studio de développement de Davidson Canada répond aux appels d'offre du Quebec afin de mettre à disposition aux clients de Davidson Canada des produits répondant à leurs besoins stratégique. L'objectif est de sélectionner les appels d'offres en adéquations avec les compétences de Davidson Canada, coordonner les équipes en termes de rédaction des solutions proposées et apporter du support technique et fonctionnel aux solutions proposées",
+      "highlights": [
+        "Analyser quotidiennement la faisabilité de chaque appels d'offres déposé sur les plateformes dédiées",
+        "Positionnement sur les appels d'offre en adéquation avec les compétences de Davidson Canada",
+        "Répartitions des taches à réaliser entre les membre de l'équipe dédiée aux appels d'offres",
+        "Rédaction des supports technique et fonctionnels contenant le présentation de l'entreprise, les références de Davidson Canada, la méthodologie employée pour la mise en place du mandat, la solution technique et les différents bordereaux de prix.",
+        "Évaluer et relever les défis des diverses offres d'hébergement cloud proposées par des partenaires tels que GCP, Azure ou encore OVH.",
+        "Présentation des offres en soutenance",
+        "Planification et organisation de module et présentation en internes avec des Architectes cloud Davidson afin de renforcer le partenariat cloud entre Davidson et Google"
+    ],
       "url": "https://www.linkedin.com/company/83159123",
       "location": "Montréal, Québec, Canada"
     },
@@ -36,6 +44,7 @@
       "company": "Davidson Canada - Bell",
       "position": "Product Owner / Business Analyst",
       "startDate": "2021-07-31",
+      "endDate": "2023-07-31",
       "summary": "<b>Contexte</b> \nDépartement : IT Bell Business Market\nProjet : SmartPath\nPrincipales fonctionnalités : SmartPath est une application interne à Bell, utilisée par des milliers d'agents à travers le Canada, qui fournit un support et un suivi des demandes client. Son objectif principal est d'optimiser l'assignation des requêtes en les attribuant aux agents ayant les compétences requises. De plus, l'application aide les agents à communiquer avec les clients en leur fournissant des modèles de courrier électronique prédéfinis. SmartPath facilite ainsi la gestion efficace des demandes client en permettant une assignation ciblée et en simplifiant la communication avec les clients via des modèles de mails adaptés.",
       "highlights": [
         "Analyser et évaluer les besoins clients, diagnostiquer les problèmes et établir des recommandations documentées pour la priorisation et la planification des demandes",
@@ -167,7 +176,14 @@
       "location": null
     }
   ],
-  "volunteer": [],
+  "volunteer": [{
+    "organization": "Agile tour Montréal",
+    "position": "membre du comité d'organisation",
+    "url": "https://www.agiletourmontreal.com/",
+    "startDate": "2024-01-01",
+    "summary": "",
+    "highlights": []
+  }],
   "education": [
     {
       "institution": "Ecole supérieure de Chimie Physique Electronique de Lyon",
@@ -259,7 +275,21 @@
     }
 
   ],
-  "interests": [],
+  "interests": [{
+    "name": "Nature",
+    "keywords": [
+      "Randonnée",
+      "Alpinisme"
+    ]
+  },
+  {
+    "name": "Sport",
+    "keywords": [
+      "Surf",
+      "Ski",
+      "Escalade"
+    ]
+  }],
   "references": [],
   "projects": [],
   "meta": {

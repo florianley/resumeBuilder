@@ -337,7 +337,7 @@ h3>.icon {
     }
 }
 .skill {
-    min-width: 25%;
+    min-width: 100px;
     max-width: 30%;
     float: left; /* Aligner les div sur la gauche */
     margin-right: 1em; /* Ajouter un espacement entre les éléments */
