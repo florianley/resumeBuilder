@@ -117,9 +117,27 @@ Supported languages:
 npm run build -- resume.pdf
 ```
 
+## Build your resume and expose it with a container
+
+- copy the html file you want to expose to the docker folder
+- rename the file index.html
+
+### Build
+
+```bash
+docker build -t resume-server . --name resumeserver  
+```
+
+### Start localy 
+```bash
+docker start resume-server
+```
+
+
+
 ## Sample
 
-![preview](.github/sample.jpeg)
+![preview](.github/sample.png)
 
 ## Credits
 
